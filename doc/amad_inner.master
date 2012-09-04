@@ -1,0 +1,235 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="amad_inner.master.cs" Inherits="amad_inner" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="ajaxToolkit" %>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+
+        <script type="text/javascript">
+
+            $(document).ready(function() {
+
+                //Default Action
+                $(".tab_content").hide(); //Hide all content
+                $("ul.tabs li:first").addClass("active").show(); //Activate first tab
+                $(".tab_content:first").show(); //Show first tab content
+
+                //On Click Event
+                $("ul.tabs li").click(function() {
+                    $("ul.tabs li").removeClass("active"); //Remove any "active" class
+                    $(this).addClass("active"); //Add "active" class to selected tab
+                    $(".tab_content").hide(); //Hide all tab content
+                    var activeTab = $(this).find("a").attr("href"); //Find the rel attribute value to identify the active tab + content
+                    $(activeTab).fadeIn(); //Fade in the active content
+                    return false;
+                });
+
+            });
+
+            function openLoginModal() {
+                document.getElementById('light').style.display = 'block';
+                document.getElementById('fade').style.display = 'block'
+            }
+        </script>
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="scriptManager" runat="server"></asp:ScriptManager>
+    
+    <div id="maindiv">
+        <div id="contentmain">
+            <div>
+                <asp:ContentPlaceHolder ID="InnerHeaderContent" runat="server">
+                    <div id="header">
+                        <div id="logodiv">
+                            <div id="logo">
+                                <a href="index.aspx">
+                                    <img src="images/logo.jpg" width="271" height="96" title="Lifecare" alt="Lifecare" />
+                                </a>
+                            </div>
+                            <div class="topmenu">
+                                <div id="tabs22">
+                                    <ul>
+                                        <li><a href="#" title="Link 1"><span>Medical News</span></a></li>
+                                        <li><a href="#" title="Link 2"><span>Find a Doctor</span></a></li>
+                                        <li><a href="#" title="Link 3"><span>Health Centers</span></a></li>
+                                        <li><asp:HyperLink id="RegisterHyperLink" runat="server" ToolTip="Register"><span>Register</span></asp:HyperLink></li>
+                                        <li><asp:HyperLink id="SignInHyperlink" runat="server" ToolTip="Sign-in" NavigateUrl="javascript:void(0)" onclick="document.getElementById('light').style.display='block';document.getElementById('fade').style.display='block'">
+                                            <span>Sign-In</span></asp:HyperLink></li>
+                                        <li><asp:HyperLink id="LogOutHyperlink" runat="server" Visible="false" NavigateUrl="Logout.aspx" ToolTip="Logout"><span>Logout</span></asp:HyperLink></li>
+                                    </ul>
+                                    <ul>
+                                        <div class="socialicons">
+                                            Stay Connected with us:<br />
+                                            <img src="images/tweeticon.jpg" width="30" height="30" title="" alt="" />
+                                            <img src="images/linkedinIcon.jpg" width="30" height="30" title="" alt="" />
+                                            <img src="images/facebookicon.jpg" width="30" height="30" title="" alt="" />
+                                            <img src="images/addthisicon.jpg" width="30" height="30" title="" alt="" />
+                                        </div>
+                                        <div class="loginUserInfo">
+                                            <div class="loginUserInfoInnerText" style="display:none" id="postLoginDiv" runat="server">
+                                                Welcome back <asp:Label ID="LoginNameLabel" runat="server"></asp:Label> <br />
+                                                You last logged-in on:<br /><asp:Label ID="LastLoginTimeLabel" runat="server"></asp:Label>
+                                            </div>
+                                        </div>
+                                        <div class="clear">
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div id="topright">
+                                <div class="advancedsearch">
+                                    <img src="images/magnifire.jpg" width="25" height="24" title="" alt="" />
+                                    <img src="images/AdvancedSearch.jpg" width="138" height="24" title="" alt="" /></div>
+                                <div id="toprightlinks">
+                                    <div class="linksdiv">
+                                        <img src="images/askIcon.jpg" width="21" height="19" align="top" title=" " alt="" />
+                                        Ask an Expert</div>
+                                    <br />
+                                    <div class="linksdiv">
+                                        <img src="images/bulbIcon.jpg" width="21" height="19" align="top" title=" " alt="" />
+                                        Get a Professional Answer</div>
+                                    <br />
+                                    <div class="linksdiv">
+                                        <img src="images/100perIcon.jpg" width="21" height="19" title="" alt="" align="top" />
+                                        100% Satisfaction Guarantee</div>
+                                    <br />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="menu">
+                            <div id="nav-menu">
+                                <ul>
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">About us</a></li>
+                                    <li><a href="#">Our Services</a></li>
+                                    <li><a href="#">Specialists Search</a></li>
+                                    <li><a href="#">Request Appointment</a></li>
+                                    <li><a href="#">Local Directory</a></li>
+                                    <li><a href="#">Health Insurance</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clear">
+                    </div>
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="clear">
+            </div>
+            <div style="min-height: 350px; background-color: #fff;">
+                <asp:ContentPlaceHolder ID="InnerDataContent" runat="server">
+                    
+                </asp:ContentPlaceHolder>
+            </div>
+            <div class="clear">
+            </div>
+            <div>
+                <asp:ContentPlaceHolder ID="InnerFooterContent" runat="server">
+                    <div class="linebg">
+                        &nbsp;</div>
+                    <div class="clear">
+                    </div>
+                    <div id="footerdiv">
+                        <div class="footerwidgets">
+                            <h1>
+                                Quick links</h1>
+                            <ul>
+                                <li>Diseases &amp; Conditions</li>
+                                <li>Healthy Living</li>
+                                <li>Tools &amp; Resources</li>
+                                <li>Community &amp; Advice</li>
+                                <li>Industry Medical Portal</li>
+                                <li>Student Centre</li>
+                            </ul>
+                        </div>
+                        <div class="footerwidgets">
+                            <h1>
+                                Tools &amp; Resources</h1>
+                            <ul>
+                                <li>Health Resources</li>
+                                <li>Health Calculators</li>
+                                <li>Medical Calculators</li>
+                                <li>Online Consultation</li>
+                                <li>Drug Guide</li>
+                                <li>Health News</li>
+                            </ul>
+                        </div>
+                        <div class="footerwidgets">
+                            <h1>
+                                Links</h1>
+                            <ul>
+                                <li>Home</li>
+                                <li>Abouts Us</li>
+                                <li>Help</li>
+                                <li>FAQ</li>
+                                <li>Disclaimer &amp; Legal</li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clear">
+                    </div>
+                    <div id="footer">
+                        <div id="copyright">
+                            Copyright © 2011 Life Care. All Rights Reserved.</div>
+                        <div id="signup">
+                            <img src="images/signup.jpg" width="149" height="31" title="" alt="" /></div>
+                    </div>
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+    <div id="light" class="white_content">
+        <a href="javascript:void(0)" onclick="document.getElementById('light').style.display='none';document.getElementById('fade').style.display='none'">
+            <img src="images/close-popup.gif" class="close" />
+        </a>
+        <h3>Enter your Login Details to access your personalized health records</h3>
+        <div class="clear"></div>
+        <div id="login">
+            <p>
+                <label>
+                    <b>Username</b>
+                </label>
+                <span>
+                    <asp:TextBox ID="UserNameTextBox" CssClass="LoginTextBox" ValidationGroup="login" runat="server"></asp:TextBox>
+                    <asp:RequiredFieldValidator ID="rfvUsername" runat="server" ControlToValidate="UserNameTextBox" ErrorMessage="*"></asp:RequiredFieldValidator>
+                </span>
+            </p>
+            <div class="clear">
+            </div>
+            <p>
+                <label>
+                    <b>Password</b></label>
+            </p>
+            <span>
+                <asp:TextBox ID="PasswordTextBox" CssClass="LoginTextBox" ValidationGroup="login" runat="server"></asp:TextBox>
+                <asp:RequiredFieldValidator ID="rfvPassword" runat="server" ControlToValidate="PasswordTextBox" ErrorMessage="*"></asp:RequiredFieldValidator>
+            </span>
+            <div class="links">
+                <dl>
+                    <dt>
+                        <asp:HyperLink ID="ForgotPassLink" CssClass="link" runat="server" Text="Forgot Password?"></asp:HyperLink>
+                    </dt>
+                    <dd>
+                        <asp:HyperLink ID="RegisterLink" CssClass="link" runat="server" Text="New User?"></asp:HyperLink>
+                    </dd>
+                    <asp:ImageButton ID="LoginButton" runat="server" ValidationGroup="login" ImageUrl="images/finddoctors.png" class="img" AlternateText="Login" OnClick="LoginButton_Click" />
+                </dl>
+            </div>
+        </div>
+    </div>
+    <div id="fade" class="black_overlay">
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SliderImages>
+    <FindDoctor>
+      <FileName>images/onlineConsultation.jpg</FileName>
+      <Text>Now get and online consultation with your favourite doctor from the comfort of your home</Text>
+      <URL>#</URL>
+      <URLTarget></URLTarget>
+    </FindDoctor>
+    <FindDoctor>
+      <FileName>images/Health-Insurance.jpg</FileName>
+      <Text>Get an affordable health insurance and protect your family</Text>
+      <URL>#</URL>
+      <URLTarget></URLTarget>
+    </FindDoctor>
+    <FindDoctor>
+      <FileName>images/samplecollection.jpg</FileName>
+      <Text>You do not need to visit Patho lab for giving samples, now you can request for the collection from your home</Text>
+      <URL>#</URL>
+      <URLTarget></URLTarget>
+    </FindDoctor>
+</SliderImages>

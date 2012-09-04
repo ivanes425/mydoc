@@ -1,0 +1,110 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Appoint me a Doc - Your personalized health care solution</title>
+</head>
+<body style="background-color:#efefef">
+    <center>
+    <table width="700" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td align="center" style="background-color:#fff;height:80px">
+                <table width="700" border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <td align="left" style="font-family: Arial, Tahoma, sans-serif; font-size: 13px; color: #fff;">&nbsp;
+                            <img src="../images/logo.jpg" />
+                        </td>
+                        <td>
+                            Follow us on<br />
+                            <img src="../images/facebookicon.jpg" />&nbsp;<img src="../images/tweeticon.jpg" />
+                            &nbsp;<img src="../images/linkedinIcon.jpg" />&nbsp;<img src="../images/addthisicon.jpg" />
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td align="center" colspan="2" style="background-color:#00356B;height:40px">
+                <table width="700" border="0" cellspacing="0" cellpadding="2">
+                    <tr>
+                        <td colspan="2" align="center" style="font-family: Arial, Tahoma, sans-serif; font-size: 11px;color: #fff;">
+                            Be sure to add <b style="color:White">no-reply@appointmeadoc.com</b> to your address book or safe sender list
+                            so our emails get directly to your inbox.
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        
+    </table>
+    
+    <table width="700" border="0" cellspacing="0" style="border:solid 1px #3A3586;border-collapse:collapse;background-color:#fff">
+        <tr>
+            <td width="10">&nbsp;</td>
+            <td width="650" align="left" valign="top" style="font-family: Arial, Tahoma, sans-serif;font-size:16px; color: #3A3586;">
+                <div style="padding:10px 0px 0px 10px;font-size:16px">
+                    <strong>
+                        Thank your for choosing AMAD, You are one step to accessing your personalized health services
+                    </strong>
+                </div>
+                <div style="padding:0px 0px 0px 10px;font-family: Arial, Tahoma, sans-serif;font-size:14px">
+                    <p>
+                        Your registration request with AMAD has been saved successfully and need to be activated.<br /><br />
+                        As a registered user you can :
+                        <ul style="list-style-type:circle">
+                            <li>
+                                access your personal health history anytime, from anywhere
+                            </li>
+                            <li>
+                                book an appointment with doctors instantly   
+                            </li>
+                            <li>
+                                buy health care products at very discounted rates  
+                            </li>
+                            <li>
+                                get you queries answered by our expert panel of doctors     
+                            </li>
+                            <li>
+                                and lots more...    
+                            </li>
+                        </ul>
+                    </p>
+                    <p>
+                        To complete the registration process, please click on the following link:<br />
+                        <font style="font-family: Arial, Tahoma, sans-serif;font-size:12px">
+                            <!-#REGISTRATIONLINK#->
+                        </font>
+                    </p>
+                </div>
+            </td>
+            <td width="10">&nbsp;</td>
+        </tr>
+    </table>
+    <table>
+        <tr style="bottom:0px;">
+            <td colspan="3" style="bottom:0px;" align="center">
+                <table width="700" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td align="left" style="font-family: Arial, Tahoma, sans-serif; font-size: 10px;color: #666">
+                            <strong>NOTE:</strong> Please do not reply to this message, which was sent from
+                            an automated email address. Mail sent to this address cannot be answered. If you
+                            are experiencing difficulties, please email our <a href="info@appointmeadoc.com" style="color: #666;
+                                text-decoration: none;">Customer Support team</a> and we will make sure that
+                            your problem is solved immeditley, Thank you<br />
+                            <br />
+							AMAD values your privacy. At no time we made your email address available to any other 3rd party without your permission
+                            <br /><br />
+                            © AMAD 2012. All rights reserved. <a href="http://www.appointmeadoc.com">http://www.appointmeadoc.com</a>
+                            <br />
+                            <br />
+                            If you prefer not to receive these notifications, you can always <a href="mailto:info@appointmeadoc.com?subject=Unsubscribe Request From Notifications?body=Unsubscribe from this notifications" style="color: #666;
+                                text-decoration: none;">Unsubscribe with one click</a>.
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </center>
+</body>
+</html>

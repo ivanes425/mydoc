@@ -1,0 +1,1236 @@
+/* CSS Document */
+body{
+	font-family: Verdana;
+	font-size:12px;
+	margin:0 auto;
+	padding:0;
+	color:#272727;
+	background-color:#1f6bdb; 
+	}
+
+#maindiv{
+	width:1000px;
+	margin:0 auto;
+	text-align:center;
+	border-top:5px solid #1f6bdb;
+	background-color:#fff;
+	}
+	
+.clear{
+	clear:both;
+	}	
+	
+#contentmain{
+	width:940px;
+	margin:0 33px;
+	float:left;
+	padding-left:10px;
+	padding-right:10px;
+	background-color:#ffffff;
+	}
+	
+#header{
+		float:left;
+	}	
+	
+#logodiv{
+	height:124px;
+	float:left;
+	}
+	
+#logo{
+	float:left;
+	margin: 20px 10px 0 0;
+	}	
+	
+.topmenu{
+	float:left;
+	margin:0;
+	padding:0;
+	}
+
+/*- Menu Tabs 22--------------------------- */
+.topmenu #tabs22 {
+      font: bold 11px/1.5em Verdana;
+      float:left;
+      width:100%;
+      background:change-background;
+      line-height:normal;
+      }
+.topmenu #tabs22 ul {
+	margin:0;
+	padding:0px 0px 0 10px;
+	list-style:none;
+      }
+.topmenu  #tabs22 li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+.topmenu #tabs22 a {
+      float:left;
+      background:url("images/tableft22.gif") no-repeat 0% -42px;
+      margin:0;
+      padding:0 0 0 5px;
+      text-decoration:none;
+      }
+.topmenu #tabs22 a span {
+      float:left;
+      display:block;
+      background:url("images/tabright22.gif") no-repeat 100% -42px;
+      padding:5px 6px 4px 3px;
+      color:#FFF;  /* #24618E */
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+.topmenu #tabs22 a span {float:none;}
+    /* End IE5-Mac hack */
+.topmenu #tabs22 a:hover span {
+      color:#FFF;
+      }
+.topmenu #tabs22 a:hover {
+      background-position:Left Top;
+	  color:#24618E;
+      }
+.topmenu #tabs22 a:hover span {
+      background-position:Right Top;
+	  color:#24618E;
+      }
+	  
+.black_overlay{
+			display: none;
+			position: absolute;
+			top: 0%;
+			left: 0%;
+			width: 100%;
+			height: 100%;
+			background-color: black;
+			z-index:1001;
+			-moz-opacity: 0.8;
+			opacity:.80;
+			filter: alpha(opacity=70);
+		}
+		.white_content {
+			display: none;
+			position: absolute;
+			top: 22%;
+			left: 25%;
+			width: 42%;
+			height: 35%;
+			padding: 16px;
+			border: 15px solid #ccc;
+			background-color: white;
+			z-index:1002;
+			overflow: auto;
+			background-color:#FFD33E;
+		}
+
+.white_content .close
+{
+    float:right;
+    vertical-align:top;
+    
+}
+.menu{
+	float:left;
+	margin:3px 0 10px 0;
+	padding:0 0 1px;
+	border-bottom:3px solid #000000;
+	}	  
+#nav-menu
+{
+width:100%;
+} 
+
+#nav-menu ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+#nav-menu li
+{
+float: left;
+margin: 0 0.02em;
+background: url(images/menu-bg.gif) #fff bottom left repeat-x;
+}
+
+#nav-menu li a
+{
+background-image:url(images/li-left-bg.gif);
+background-position:left;
+background-repeat:no-repeat;
+height: 27px;
+line-height: 2em;
+float: left;
+width:auto;
+padding-left:15px;
+padding-right:15px;
+display: block;
+border: solid 0px #CCCCCC;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9pt;
+font-weight:normal;
+color: #ffffff;
+text-decoration: none;
+text-align: center;
+}
+
+/* Hide from IE5-Mac \*/
+#nav-menu li a
+{
+float: none
+}
+/* End hide */	
+	
+#bannerdiv{
+	float:left;
+	}	
+	
+#banner{
+	float:left;
+	width:652px;
+	margin:0 5px 0 0;
+	}
+	
+#search{
+	float:left;
+	width:276px;
+	height:215px;
+	background-image:url(images/yellowBg.jpg);
+	background-repeat:no-repeat;
+	background-position:top;
+	margin:2px 0 0 0;
+	}	
+	
+#searchform{
+	float:left;
+	height:180px;
+	}	
+	
+#search .textser{
+	float:left;
+	font-family:Verdana;
+	font-weight:bold;
+	margin:20px 0 0 10px;
+	color:#131313;
+	text-align:left;
+	}	
+	
+#search .searchfield{
+	float:right;
+	font-family:Verdana;
+	font-size:10px;
+	color:#666666;
+	margin:20px 10px 0 0;
+	}
+	
+#search .searchfield select{
+	font-family:Verdana;
+	font-size:10px;
+	color:#666666;
+	}		
+	
+#topright{
+	float:left;
+	border:0px solid red;
+	width:200px;
+	}	
+	
+.advancedsearch{
+	margin:0 0 0 10px;
+	}		
+	
+#toprightlinks{
+	margin:0;
+	padding:0;
+	border:0px solid red;
+	float:left;
+	}
+
+#toprightlinks .linksdiv{
+	margin:10px 0 0px;
+	float:left;
+	padding:0px 0;
+	text-align:left;
+	font-family:Arial;
+	font-size:11px;
+	font-weight:bold;
+	color:#ac4e09;
+	border:0px solid red;
+	}
+	
+#toprightlinks .linksdiv img{
+	margin:0 5px 0 0;
+	}	
+
+/*Content css*/
+#content{
+	width:660px;
+	float:left;
+	text-align:left;
+	padding-top:10px;
+	}
+	
+#tabsdiv{
+	float:left;
+	margin: 0 15px 10px 0;
+	padding: 0;
+	font: 10px normal Verdana, Arial, Helvetica, sans-serif;
+	color: #444;
+	} 
+	
+#tabsdiv .container h1 {font-size: 3em; margin: 0px 0;}
+#tabsdiv .container .container {width: 600px; margin: 10px auto;}
+#tabsdiv .container ul.tabs {
+	margin: 0;
+	padding: 0;
+	float: left;
+	list-style: none;
+	height: 32px;
+	border-bottom: 1px solid #ff813b;
+	border-left: 1px solid #ff813b;
+	width: 100%;
+}
+#tabsdiv .container ul.tabs li {
+	float: left;
+	margin: 0;
+	padding: 0;
+	height: 31px;
+	line-height: 31px;
+	border: 1px solid #ff813b;
+	border-left: none;
+	margin-bottom: -1px;
+	background: #ffffff;
+	overflow: hidden;
+	position: relative;
+}
+#tabsdiv .container ul.tabs li a {
+	text-decoration: none;
+	color: #000;
+	display: block;
+	font-size: 1.2em;
+	padding: 0 21px;
+	border: 0px solid #fff;
+	outline: none;
+}
+#tabsdiv .container ul.tabs li a:hover {
+	background: #a7edff;
+}	
+html #tabsdiv .container ul.tabs li.active, html #tabsdiv .container ul.tabs li.active a:hover  {
+	background: #ff813b;
+	border-bottom: 0px solid #fff;
+}
+#tabsdiv .container .tab_container {
+	*width:98%;
+	border: 1px solid #999;
+	border-top: none;
+	clear: both;
+	float: left; 
+	/*width: 100%;*/
+	background: #fff;
+	border:solid 5px #ff813b;
+	-moz-border-radius-bottomright: 5px;
+	-khtml-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	-khtml-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+#tabsdiv .container .tab_content {
+	padding: 10px 30px;
+	font-family:Verdana;
+	font-size: 12px;
+	color:#3e3e3e;
+	line-height:18px;
+}
+#tabsdiv .container .tab_content h2 {
+	font-weight: normal;
+	padding-bottom: 10px;
+	border-bottom: 1px dashed #ddd;
+	font-size: 1.8em;
+}
+#tabsdiv .container .tab_content h3 a{
+	color: #254588;
+}
+#tabsdiv .container .tab_content img {
+	float: left;
+	margin: 0 20px 20px 0;
+	border: 1px solid #ddd;
+	padding: 5px;
+}	
+
+#searchmenus{
+	float:left;
+	}
+
+#clinicsearch{
+	float:left;
+	margin:0 0 0 0;
+	width:220px;
+	}
+
+#clinicsearch a{color:#6f4707; text-decoration:none}	
+#clinicsearch a:hover{color:#F00; text-decoration:none}		
+	
+#specialistsearch{
+	float:left;
+	margin:0 0 0 0;
+	width:220px;
+	}
+
+#specialistsearch a{color:#074357; text-decoration:none}	
+#specialistsearch a:hover{color:#F00; text-decoration:none}	
+
+	
+#requestappointment{
+	float:left;
+	margin:0 0 0 0;
+	width:210px;
+	}	
+
+#requestappointment a{color:#4d6508; text-decoration:none}	
+#requestappointment a:hover{color:#F00; text-decoration:none}	
+	
+.searchimg{
+	margin:0 0 10px;
+	}
+	
+.searchlinks{
+	margin:0;
+	padding:0;
+	border:0px solid red;
+	font-size:11px;
+	line-height:16px;
+	}	
+	
+.searchlinks ul{
+	margin:0;
+	padding:0
+	}
+	
+.searchlinks ul li{
+	margin:2px 0;
+	padding:0;
+	list-style-image:url(images/arrow.jpg);
+	list-style-position:inside;
+	}	
+	
+
+	
+#sidebar{
+	float:left;
+	*padding-top:10px;
+	}	
+	
+.usefulbox{
+	float:left;
+	width:270px;
+	background-image:url(images/sidebarboxbg2.jpg);
+	background-repeat:repeat-y;
+	}	
+
+.usefulboxheding{
+	background-image:url(images/blueheadingbg.jpg);
+	background-repeat:no-repeat;
+	height:27px;
+	font-size:12px;
+	color:#fff;
+	font-weight:bold;
+	text-align:left;
+	line-height:20px;
+	}
+	
+.usefulboxheding p{
+	padding:2px 0 0 15px;
+	margin:0;
+	}	
+	
+.usefulboxtext{
+	background-image:url(images/sidebarboxbg.jpg);
+	background-repeat:no-repeat;
+	font-size:11px;
+	color:#fff;
+	text-align:left;
+	line-height:20px;
+	float:left;
+	width:100%;
+	}	
+	
+.usefulboxtext ul{
+	padding:0;
+	margin:5px 0 0 20px;
+	}
+	
+.usefulboxtext ul li{
+	padding:0;
+	margin:3px 0;
+	list-style-image:url(images/arrow_blue.jpg);
+	list-style-position:inside;
+	color:#472d2d;
+	line-height:15px;
+	}	
+	
+.usefulboxtext ul li a{color:#472d2d;}	
+.usefulboxtext ul li a:hover{color:#F00;}			
+	
+.usefulboxtext #date{
+	font-size:10px;
+	color:#555555;
+	margin:0 12px 10px;
+	padding:0;
+	line-height:18px;
+	}
+	
+.usefulboxtext #newsheading{
+	font-size:11px;
+	color:#096485;
+	margin:5px 12px 10px;
+	padding:0;
+	font-weight:bold;
+	line-height:15px;
+	}
+	
+.usefulboxtext #newsdetails{
+	font-size:11px;
+	color:#555555;
+	margin:5px 12px 10px;
+	padding:0;
+	line-height:15px;
+	}				
+	
+.usefulboxmore{
+	background-image:url(images/morebg.jpg);
+	background-repeat:no-repeat;
+	font-size:12px;
+	color:#fff;
+	height:23px;
+	text-align:right;
+	float:left;
+	width:100%;
+	border: 0px solid red;
+	background-position:top;
+	}	
+	
+.usefulboxmore p{
+	margin:0 15px 0 0;
+	padding:0;
+	color:#8b0101;
+	}	
+	
+.socialicons{
+	margin:15px auto;
+	padding:0px 0px 0px 10px;
+	font-weight:bold;
+	color:#000000;
+	line-height:30px;
+	float:left;
+	text-align:center;
+	width:230px;
+	}	
+
+.loginUserInfo
+{
+	margin:0px;
+	padding:20px 0px 0px 0px;
+	font-weight:bold;
+	color:#3B9ED3;
+	line-height:15px;
+	float:left;
+	text-align:left;
+	width:180px;
+	font-size:smaller;
+}
+
+.loginUserInfoInnerText
+{
+	border-bottom:dashed 1px gray;
+}
+		
+.proregistration{
+	margin:30px 0 0;
+	float:left;
+	width:270px;
+	text-align:center;
+	}
+	
+.pharmacy{
+	margin:30px 0 0 0;
+	float:left;
+	width:270px;
+	text-align:center;
+	}			
+	
+.contentfront{
+	float:left;
+	margin:20px 0 10px;
+	text-align:left;
+	font-size:11px;
+	line-height:18px;
+	}
+.linebg{background-image:url(images/linebg.jpg); background-position:top; background-repeat:repeat-x; width:940px; margin:0 auto;}	
+#footerdiv{float:left; margin:10px 80px 10px 100px; border:0px solid red;}	
+
+.footerwidgets{
+	float:left;
+	margin:0 60px;
+	}
+	
+.footerwidgets h1{
+	font-size:14px;
+	font-weight:bold;
+	color:#9e212f;
+	text-align:left;
+	}		
+	
+.footerwidgets ul{
+	margin:0;
+	padding:0;
+	}	
+	
+.footerwidgets ul li{
+	margin:4px 0;
+	padding:0;
+	font-size:11px;
+	list-style-type:none;
+	text-align:left;
+	}
+	
+#footer{
+	background-image:url(images/footerbg.jpg);
+	background-repeat:repeat-x;
+	height:36px;
+	margin:0 0 5px;
+	width:100%;
+	float:left;
+	}		
+	
+#copyright{
+	float:left;
+	text-align:right;
+	color:#fff;
+	font-family:Arial;
+	font-size:12px;
+	line-height:32px;
+	width:600px;
+	}	
+	
+#signup{
+	float:right;
+	text-align:right;
+	margin:2px 10px 3px 0;
+	}	
+	
+#login
+{
+    float: left;
+    width: 400px;
+    padding-left:100px;
+}
+
+#login p label
+{
+    color: #999999;
+    display: inline;
+    float: left;
+    font-size: 12px;
+    margin: 0 20px 0 0;
+    padding: 13px 0 0;
+    width: 65px;
+}
+#login p span
+{
+    float: left;
+    height: 35px;
+    width: 270px;
+}
+
+.LoginTextBox
+{
+    background: url('images/bg_overlay_input.png') no-repeat scroll 0 0 transparent;
+    border: medium none;
+    float: left;
+    padding: 11px 0 10px 3px;
+    width: 228px;
+}
+#login .links dl dt
+{
+    border-right: 1px solid #999999;
+    float: left;
+    margin: 15px 10px 0 0;
+    padding: 0 10px 0 50px;
+    width: auto;
+    font-weight:bold;
+}
+#login .links dl dd
+{
+    float: left;
+    width: auto;
+    margin: 15px 10px 0 0;
+    font-weight:bold;
+}
+#login .links .link
+{
+    color:#DE4221;
+    font-size:12px;
+    font-family:Arial, Verdana;
+}
+#login .links .img
+{
+    padding:10px 0px 0px 10px;
+}
+
+/* For Login and Register Page ------------ Start Here */
+#twoColumn-LR
+{
+    width:935px;
+    float:left;
+    padding:30px 0px 20px 0px;
+    background-image:url(images/bg_main.jpg);
+    background-repeat:repeat;
+}
+#twoColumn-LR .fleft
+{
+    width:510px;
+    float:left;
+    border-right:solid 1px gray;
+}
+
+#twoColumn-LR .fleftlabels
+{
+    width:170px;
+    float:left;
+    position:relative;
+}
+
+#twoColumn-LR .fleftcontent
+{
+    width:295px;
+    float:left;
+    position:relative;
+}
+
+
+#twoColumn-LR .fleftlabels ul li 
+{
+    list-style-type:none;
+    height:32px;
+    text-align:left;
+    vertical-align:middle;
+}
+
+#twoColumn-LR .fleftcontent ul li
+{
+    list-style-type:none;
+    height:30px;
+    text-align:left;
+    vertical-align:middle;
+}
+
+#twoColumn-LR .fright
+{
+    width:420px;
+    float:left;
+}
+
+#twoColumn-LR .frightlabels
+{
+    width:150px;
+    float:left;
+    position:relative;
+}
+
+#twoColumn-LR .frightcontent
+{
+    width:220px;
+    float:left;
+    position:relative;
+}
+
+
+#twoColumn-LR .frightlabels ul li 
+{
+    list-style-type:none;
+    height:32px;
+    text-align:left;
+    vertical-align:middle;
+}
+
+#twoColumn-LR .frightcontent ul li
+{
+    list-style-type:none;
+    height:30px;
+    text-align:left;
+    vertical-align:middle;
+}
+
+#twoColumn-LR .headertext
+{
+    text-align:center;
+    font-size:medium;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+
+#twoColumn-LR .validation
+{
+    float:left;
+    text-align:left;
+    padding:10px 0px 20px 30px;
+}
+
+#twoColumn-LR input[type=text]
+{
+    width: 150px;
+    height: 20px;
+    border: 1px solid #9a9a9a;
+    color: #666;
+    line-height: 22px;
+}
+
+/* For Login and Register Page ------------ Ends Here */
+
+/* two column template eg. Activate account ; left column bigger and right column smaller */
+.leftColumnHeader
+{
+    font-weight:bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:medium;
+    color:#3B9ED3;
+    padding-left:10px;
+}
+
+.leftColumnText
+{
+    text-align:justify;
+    width:630px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-left:10px;
+}
+
+.rightColumnHeader
+{
+	float:left;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:10px;
+	color:#DE4221;
+	font-size:small;
+}
+
+.rightColumnText
+{
+	float:left;
+	width:250px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:justify;
+}
+
+.emailAvailable
+{
+    background-color:#C8FFC8;
+    border:solid 1px #55FF55;
+}
+.emailNotAvailable
+{
+    background-color:#FF4632;
+    border:solid 1px #DE4221;
+}
+
+
+#column1
+{
+    width:650px;
+    float:left;
+    padding:10px 0px 30px 0px;    
+    text-align:left;
+}
+#column1 .title
+{
+    text-align:center;
+    font-size:medium;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding:5px 0px 10px 0px;
+}
+
+#column1 .titleleft
+{
+    text-align:left;
+    font-size:medium;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding:5px 0px 10px 15px;
+    color:#DE4123;
+}
+
+#column1 .titlecenter
+{
+    text-align:center;
+    font-size:medium;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    padding:5px 0px 10px 0px;
+}
+
+#column1 .fleft
+{
+    width:315px;
+    float:left;
+    text-align:left;
+}
+#column1 .fright
+{
+    width:290px;
+    float:left;
+    text-align:left;
+}
+#column1 .fleft ul li
+{
+    width:315px;
+    float:left;
+    list-style-type:none;
+    text-align:left;
+    padding-top:10px;
+}
+#column1 .fright ul li
+{
+    width:275px;
+    float:left;
+    list-style-type:none;
+    text-align:left;
+    padding-top:10px;
+}
+
+#column1 .fleft input[type=text], #column1 .fright input[type=text]
+{
+    width: 200px;
+    height: 26px;
+    border: 1px solid #9a9a9a;
+    color: #666;
+    line-height: 22px;
+}
+
+#column1 .fright input[type=password], .fleft input[type=password]
+{
+    width: 200px;
+    height: 26px;
+    border: 1px solid #9a9a9a;
+    color: #666;
+    line-height: 22px;
+}
+
+#column1 .all
+{
+    width:600px;
+    float:left;
+    list-style-type:none;
+    text-align:left;
+    padding:10px 0px 0px 10px;
+}
+
+#column1 .all ul li
+{
+    width:250px;
+    float:left;
+    list-style-type:none;
+    text-align:left;
+    padding-top:5px;
+    font-size:smaller;
+}
+
+#column1 .label
+{
+    padding:10px 0px 150px 0px;
+    width:200px;
+    vertical-align:middle;
+}
+
+#column2
+{
+    width:270px;
+    float:left;
+    padding:0px 0px 0px 5px;
+    background-image:url(images/bg_main.jpg);
+    background-repeat:repeat;
+}
+
+#column2 ul li
+{
+    width:245px;
+    float:left;
+    list-style-type:circle;
+    text-align:left;
+    padding-top:5px;
+    text-align:left;
+    font-size:small;
+}
+
+#innerContent
+{
+    padding-bottom:20px;
+    background-image:url(images/bg_main.jpg);
+    background-repeat:repeat;
+    min-height:480px;
+}
+
+#innerContentWhite
+{
+    padding-bottom:20px;
+    background-color:White;
+    min-height:480px;
+    width:885px;
+}
+
+#innerContentFull
+{
+    padding-bottom:20px;
+    background-color:White;
+    min-height:480px;
+    width:930px;
+}
+
+/* two column template eg. Activate account ------ ends here;*/
+
+.nonExpandableDropdown
+{
+    text-align:left;
+    word-wrap: break-word;
+    text-wrap:normal;
+    overflow:hidden;
+}
+
+
+/* Class for Login Page */
+
+#loginPage
+{
+    float: left;
+    width: 700px;
+    padding-left:80px;
+    margin-left:50px;
+    background-image:url(images/login2.png);
+    background-repeat:no-repeat;
+    height:450px;
+    top:0;
+}
+
+#loginPage .loginControls
+{
+    margin:110px 0px 0px 250px;
+}
+
+#loginPage p label
+{
+    color: #000;
+    display: inline;
+    float: left;
+    font-size: 14px;
+    margin: 0 20px 0 0;
+    padding: 13px 0 0;
+    width: 80px;
+}
+#loginPage p span
+{
+    float: left;
+    height: 35px;
+    width: 330px;
+}
+
+.loginPageTextBox
+{
+    background: url('images/bg_overlay_input.png') no-repeat scroll 0 0 transparent;
+    border: medium none;
+    float: left;
+    padding: 11px 0 10px 3px;
+    width: 300px;
+}
+
+#loginPage .logbutton
+{
+    border-right: 1px solid #999999;
+    float: left;
+    margin: 15px 10px 0 20px;
+    padding: 0 10px 0 0px;
+    width: auto;
+    font-weight:bold;
+}
+    
+#loginPage .links dl dt
+{
+    border-right: 1px solid #999999;
+    float: left;
+    margin: 10px 15px 0px 220px;
+    padding: 0px 20px 0px 0px;
+    width: auto;
+    font-weight:bold;
+}
+#loginPage .links dl dd
+{
+    float: left;
+    width: auto;
+    margin: 10px 10px 0 0;
+    font-weight:bold;
+}
+#loginPage .links .link
+{
+    color:#DE4221;
+    font-size:12px;
+    font-family:Arial, Verdana;
+}
+#loginPage .links .img
+{
+    padding:5px 120px 0px 0px;
+}
+
+/******************* Tabs **********************/
+
+/*Header*/
+.Tab .ajax__tab_header
+{
+    color: #4682b4;
+    font-family:Calibri;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #ffffff;
+    margin-left: 0px;
+    float:left;
+    cursor:hand;
+}
+/*Body*/
+.Tab .ajax__tab_body
+{
+    border:1px solid #b4cbdf;
+    padding-top:0px;
+    width:600px;
+    height:274px;
+    float:left;
+}
+/*Tab Active*/
+.Tab .ajax__tab_active .ajax__tab_tab
+{
+    color: #ffffff;
+    background:url("images/tab/tab_active.gif") repeat-x;
+    height:20px;
+}
+.Tab .ajax__tab_active .ajax__tab_inner
+{
+    color: #ffffff;
+    background:url("images/tab/tab_left_active.gif") no-repeat left;
+    padding-left:10px;
+}
+.Tab .ajax__tab_active .ajax__tab_outer
+{
+    color: #ffffff;
+    background:url("images/tab/tab_right_active.gif") no-repeat right;
+    padding-right:6px;
+}
+/*Tab Hover*/
+.Tab .ajax__tab_hover .ajax__tab_tab
+{
+    color: #000000;
+    background:url("images/tab/tab_hover.gif") repeat-x;
+    height:20px;
+}
+.Tab .ajax__tab_hover .ajax__tab_inner
+{
+    color: #000000;
+    background:url("images/tab/tab_left_hover.gif") no-repeat left;
+    padding-left:10px;
+}
+.Tab .ajax__tab_hover .ajax__tab_outer
+{
+    color: #000000;
+    background:url("images/tab/tab_right_hover.gif") no-repeat right;
+    padding-right:6px;
+}
+/*Tab Inactive*/
+.Tab .ajax__tab_tab
+{
+    color: #666666;
+    background:url("images/tab/tab_Inactive.gif") repeat-x;
+    height:20px;
+}
+.Tab .ajax__tab_inner
+{
+    color: #666666;
+    background:url("images/tab/tab_left_inactive.gif") no-repeat left;
+    padding-left:10px;
+}
+.Tab .ajax__tab_outer
+{
+    color: #666666;
+    background:url("images/tab/tab_right_inactive.gif") no-repeat right;
+    padding-right:6px;
+    margin-right: 2px;
+}
+
+/********** Tabs CSS ends **************/
+
+/************* text and controls section **************/
+
+.tabHead{
+	float:left;
+	font-family:Verdana;
+	font-weight:bold;
+	color:#D8322C;
+	text-align:left;
+	width:130px;
+	position:relative;
+	background-image:url(images/tab/search-heading.png);
+	background-repeat:no-repeat;
+	height:28px;
+	margin-left:10px;
+	}	
+	
+.textLabels{
+	float:left;
+	font-family:Verdana;
+	font-weight:bold;
+	margin:15px 0 0 10px;
+	color:#131313;
+	text-align:left;
+	width:130px;
+	position:relative;
+	}	
+	
+.searchControls{
+	float:right;
+	font-family:Verdana;
+	font-size:10px;
+	color:#666666;
+	margin:15px 10px 0 0;
+	width:220px;
+	position:relative;
+	}
+	
+.searchControls select{
+	font-family:Verdana;
+	font-size:10px;
+	width:200px;
+	color:#666666;
+	}	
+	
+.tabButton
+{
+    float:right;
+    padding:5px 50px 0px 10px;
+}
+/************* text and controls section ends  **************/
+
+.validationErrorBorder {
+	border: 1px solid red;
+	padding:5px 2px 1px 0px;
+	background-color:#ffffff;    	
+}
+
+.flashclass{ /*sample CSS class added to image slideshow container*/
+    width: 275px; /*a width should be defined for transition to work*/
+    border: 0px solid orange;
+    padding: 5px;
+}
+
+.flashclass img{
+    border-width: 0;
+}
+    
